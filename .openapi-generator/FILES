@@ -1,6 +1,6 @@
 .gitignore
 .openapi-generator-ignore
-.php_cs
+.php-cs-fixer.dist.php
 .travis.yml
 README.md
 composer.json
@@ -196,6 +196,7 @@ docs/Model/RefundOrderItemRequest.md
 docs/Model/RefundOrderItemResponse.md
 docs/Model/RefundOrderRequest.md
 docs/Model/RefundOrderResponse.md
+docs/Model/SetOrderInvoiceRequestInner.md
 docs/Model/SetOrderInvoiceResponse.md
 docs/Model/ShippingProfile.md
 docs/Model/ShippingProfileNameFilter.md
@@ -416,6 +417,7 @@ lib/Model/RefundOrderItemRequest.php
 lib/Model/RefundOrderItemResponse.php
 lib/Model/RefundOrderRequest.php
 lib/Model/RefundOrderResponse.php
+lib/Model/SetOrderInvoiceRequestInner.php
 lib/Model/SetOrderInvoiceResponse.php
 lib/Model/ShippingProfile.php
 lib/Model/ShippingProfileNameFilter.php
@@ -633,6 +635,7 @@ test/Model/RefundOrderItemRequestTest.php
 test/Model/RefundOrderItemResponseTest.php
 test/Model/RefundOrderRequestTest.php
 test/Model/RefundOrderResponseTest.php
+test/Model/SetOrderInvoiceRequestInnerTest.php
 test/Model/SetOrderInvoiceResponseTest.php
 test/Model/ShippingProfileNameFilterTest.php
 test/Model/ShippingProfileTest.php

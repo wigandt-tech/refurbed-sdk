@@ -414,7 +414,7 @@ $apiInstance = new WigandtTech\Refurbed\Api\OrderServiceApi(
     new GuzzleHttp\Client(),
     $config
 );
-$body = array(new \stdClass); // object[] | (streaming inputs)
+$body = array(new \WigandtTech\Refurbed\Model\SetOrderInvoiceRequestInner()); // \WigandtTech\Refurbed\Model\SetOrderInvoiceRequestInner[] | (streaming inputs)
 
 try {
     $result = $apiInstance->setOrderInvoiceStream($body);
@@ -428,7 +428,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**object[]**](../Model/object.md)| (streaming inputs) |
+ **body** | [**\WigandtTech\Refurbed\Model\SetOrderInvoiceRequestInner[]**](../Model/SetOrderInvoiceRequestInner.md)| (streaming inputs) |
 
 ### Return type
 
